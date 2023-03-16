@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../Img/th.jpg);
+    color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+}
+
+.userlogin{
+    background-color: rgb(127, 163, 255);
+    height: 500px;
+    width: 400px;
+    border-radius: 15px solid rgb(80, 200, 400);
+    margin-top: 10%;
+    text-align-last: center;
+}
+
+.title{
+    text-align: center;
+    font-family: "roboto";
+    text-transform: uppercase;
+    font-size: 10px;
+    padding-top: 10px;
+    color: black;
+}
+
+.userid{
+    padding-top: 20px;
+}
+
+.userid h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    float: left;
+    margin-left: 50px;
+    margin-right: 5px;
+    padding-left: 5px;
+}
+
+.userid input{
+    height: 25px;
+    width: 300px;
+    border: solid 2px rgb(78, 987, 90);
+    border-radius: 10px;
+}
+
+.userpassword{
+    padding-top: 20px;
+}
+
+.userpassword h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    float: left;
+    margin-left: 40px;
+    margin-right: 5px;
+    padding-left: 5px;
+}
+
+.userpassword input{
+    height: 25px;
+    width: 300px;
+    border: solid 2px rgb(78, 987, 90);
+    border-radius: 10px;
+}
+
+.buttons{
+    margin-top: 60px;
+    display: inline-flex;
+}
+
+.buttons img{
+    float: center;
+}
+
+.buttons button{
+    border-radius: 15px;
+    width: 50px;
+    height: 50px;
+}
+
+.buttons p{
+    margin: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.Enlace{
+    display: inline-flex;
+    background-color: darkgrey;
+    padding: 15px 35px;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+a{
+    margin-top: 20px;
+    float: left;
+    margin-left: 20px;
+    color: brown;
+    /*
+    Registro, solicitar nombre, correo, contraseña, confirmación de contraseña
+    */
+}
